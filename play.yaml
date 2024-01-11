@@ -1,0 +1,7 @@
+---
+- hosts: all
+  become: true
+  name: install tools on vm1
+  tasks: 
+  - name: executing master.sh script
+    script: master.sh
